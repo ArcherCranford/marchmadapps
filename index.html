@@ -26,7 +26,48 @@
       font-size: 1.5em;
       z-index: 800;
     }
-  
+    h2 {
+			font-family: Georgia, 'Times New Roman', Times, serif;
+			letter-spacing: .04em;
+            text-align: center;
+		}
+        h3 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        h4 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        section {
+			position: absolute;
+			bottom: 0;
+			left: 10px;
+			width: 280px;
+			margin: 20px auto;
+			padding: 0 15px;
+			background: #a7a7a7;
+			border: 1px solid rgb(156, 156, 156);
+			border-radius: 3px;
+			z-index: 800;
+		}
+
+		p {
+			font-size: .9em;
+			line-height: 1.5em;
+		}
+        li {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        a {
+			color: #bc05ff;
+			text-decoration: none;
+            transition: 1.5s;
+		}
+
+		a:hover {
+			text-decoration: underline;
+            color:#4913eb;
+            transition: 2s;
+		}
     #map {
       position: absolute;
       top: 0;
@@ -40,6 +81,36 @@
     <div id='map'></div>
     <h1>March Madness Appearances by States, 2025</h1>
     </div>
+
+    <section>
+		<h2>March Madness</h2>
+
+		<p>
+        March Madness, the NCAA Men's Basketball Tournament, is a nationwide competition held annually in March and April. This map highlights the number of tournament appearances by state, showcasing each state's contribution to the excitement of college basketball's biggest event.
+        </p>
+
+        <h3>Who has the most appearances?</h3>
+
+		<p> 
+        <h4>Top Three States</h4>
+        <o1>
+            <li>#1 Texas: 277 appearances</li>
+            <li>#2 California: 247 appearances</li>
+            <li>#3 North Carolina: 216 appearances</li>
+        </o1>
+        <h4>Bottom Three States</h4>
+        <o1>
+            <li>#42 Delaware: 7 appearances</li>
+            <li>T-#43 Hawaii: 5 appearances</li>
+            <li>T-#43 North Dakota: 5 appearances</li>
+        </o1>
+
+		</p>
+
+		<p>Map data provided by <a href="https://en.wikipedia.org/wiki/NCAA_Division_I_men%27s_basketball_tournament_bids_by_school">Wikipedia</a></p>
+		<p>Map authored by Archer Cranford</p>
+
+	</section>
 
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
